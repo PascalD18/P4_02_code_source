@@ -1,0 +1,24 @@
+-------------------- Auto-Git Log --------------------
+		Tue Feb 22 2022 15:59:31 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+
+
+Deleted files:
+* fonts/FontAwesome.otf
+* fonts/et-line.eot
+* fonts/et-line.svg
+* fonts/et-line.ttf
+* fonts/et-line.woff
+* fonts/fontawesome-webfont.eot
+* fonts/fontawesome-webfont.svg
+* fonts/fontawesome-webfont.ttf
+* fonts/fontawesome-webfont.woff
+* fonts/fontawesome-webfont.woff2
+
+
+Renamed files:
