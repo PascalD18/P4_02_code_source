@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Wed Feb 23 2022 10:46:38 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* sitemap-org.xml
+
+
+Deleted files:
+
+
+Renamed files:
