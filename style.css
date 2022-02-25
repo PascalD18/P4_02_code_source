@@ -95,7 +95,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /*background: url("img/texture-paper.png");*/
     background-size: 280px 280px;
 }
 
@@ -661,9 +661,9 @@ a {
     color: #575757!important;
 }
 
-.container {
+/*.container {
     max-width: 1000px;
-}
+}*/
 
 .hero-bloc-text {
     font-size: 38px;
@@ -783,6 +783,9 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+}
+.tc-white-5{
+    color: #000000;
 }
 
 .btn-atomic-tangerine {
