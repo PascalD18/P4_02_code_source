@@ -1,0 +1,28 @@
+-------------------- Auto-Git Log --------------------
+		Fri Feb 25 2022 18:02:18 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* css/bootstrap.css
+* index.html
+* style.css
+
+
+Created files:
+* .autogit/logs/log-25-1-2022-17-31-57.txt
+* fonts/FontAwesome.otf
+* fonts/et-line.eot
+* fonts/et-line.svg
+* fonts/et-line.ttf
+* fonts/et-line.woff
+* fonts/fontawesome-webfont.eot
+* fonts/fontawesome-webfont.svg
+* fonts/fontawesome-webfont.ttf
+* fonts/fontawesome-webfont.woff
+* fonts/fontawesome-webfont.woff2
+
+
+Deleted files:
+
+
+Renamed files:
