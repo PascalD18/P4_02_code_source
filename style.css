@@ -130,7 +130,7 @@ a:hover {
 .d-bloc a .icon-md,
 .d-bloc a .icon-lg,
 .d-bloc a .icon-xl,
-.d-bloc h1 a,
+.d-bloc a,
 .d-bloc h2 a,
 .d-bloc h3 a,
 .d-bloc h4 a,
@@ -147,7 +147,7 @@ a:hover {
 .d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
+.d-bloc  a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
 .d-bloc h4 a:hover,
@@ -228,7 +228,7 @@ a:hover {
 .l-bloc a .icon-md,
 .l-bloc a .icon-lg,
 .l-bloc a .icon-xl,
-.l-bloc h1 a,
+.l-bloc  a,
 .l-bloc h2 a,
 .l-bloc h3 a,
 .l-bloc h4 a,
@@ -246,7 +246,7 @@ a:hover {
 .l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
 .l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
+.l-bloc  a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
 .l-bloc h4 a:hover,
@@ -658,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
 }
 
 /*.container {
@@ -699,11 +699,14 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    /*color: #ffffff!important;*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+#cta-hero{
+    color: #000000;
 }
 
 .social {
@@ -729,9 +732,9 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
+/*h1 {
     color: #333333!important;
-}
+}*/
 
 h4 {
     color: #333333!important;
@@ -785,14 +788,13 @@ h4 {
     color: #F3976C!important;
 }
 .tc-white-5{
-    color: #000000;
+    color: #ffffff;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     /*color: #FFFFFF!important;*/
-    color:#000000;
-
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
