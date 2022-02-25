@@ -697,16 +697,12 @@ p {
     font-family: "Open Sans";
 }
 
-.cta-hero {
+.cta-hero-btn {
     margin-top: 22px;
-    /*color: #ffffff!important;*/
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
-}
-#cta-hero{
-    color: #000000;
 }
 
 .social {
@@ -746,7 +742,10 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #ffffff!important;
+}
+.black{
+    color: #000000;
 }
 
 .portfolio-thumb {
@@ -793,8 +792,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    /*color: #FFFFFF!important;*/
-    color: #000000;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
