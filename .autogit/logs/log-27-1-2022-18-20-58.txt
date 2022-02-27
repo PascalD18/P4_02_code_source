@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Sun Feb 27 2022 18:20:58 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+
+
+Deleted files:
+* img/title.png
+
+
+Renamed files:
