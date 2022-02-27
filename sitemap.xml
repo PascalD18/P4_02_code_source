@@ -1,0 +1,24 @@
+< ? version xml = " 1.0 " encodage = " UTF-8 " ?>
+< jeu d'url
+      xmlns = " http://www.sitemaps.org/schemas/sitemap/0.9 "
+      xmlns : xsi = " http://www.w3.org/2001/XMLSchema-instance "
+      xsi : schemaLocation = " http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd " >
+<!-- créé avec le générateur de plan de site en ligne gratuit www.xml-sitemaps.com -->
+
+
+< url >
+  < loc >https://pascald18.github.io/P4_02_code_source/index</ loc >
+  < lastmod >2021-12-03T16:02:07+00:00</ lastmod >
+  < priorité >1.00</ priorité >
+</ url >
+< url >
+  < loc >https://pascald18.github.io/P4_02_code_source/index.html</ loc >
+  < lastmod >2021-12-03T16:02:07+00:00</ lastmod >
+  < priorité >0.80</ priorité >
+</ url >
+< url >
+  < loc >https://pascald18.github.io/P4_02_code_source/contacts-webdesign.html</ loc >
+  < lastmod >2021-12-03T16:02:07+00:00</ lastmod >
+  < priorité >0.80</ priorité >
+</ url >
