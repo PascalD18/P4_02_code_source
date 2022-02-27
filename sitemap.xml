@@ -1,4 +1,4 @@
-<?versionxml="1.0"encodage="UTF-8"?>
+<?versionxml= "1.0"encoding="UTF-8"?>
 <urlt
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,16 +8,16 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 </urlt>
 <url>
 <loc>https://pascald18.github.io/P4_02_code_source/index</loc>
-<lastmod>2022-02-22</lastmod>
-<priorité>1.00</priorité>
+<lastmod>2022-02-22</lastmod
+<priority>1.00</priority>
 </url>
 <url>
 <loc>https://pascald18.github.io/P4_02_code_source/index.html</loc>
 <lastmod>2022-02-22</lastmod>
-<priorité>0.80</priorité>
+<priority>0.80</priority>
 </url>
 <url>
 <loc>https://pascald18.github.io/P4_02_code_source/contacts-webdesign.html</loc>
 <lastmod>2022-02-22</lastmod>
-<priorité>0.80</priorité>
+<priority>0.80</priority>
 </url>
