@@ -48,6 +48,12 @@ a:hover {
     padding-right: 0;
 }
 
+#bloc-3-what-i-do{
+    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-attachment:local;
+    height: 100%;
+    width: 100%;
+}
 .bloc-lg {
     padding: 50px 50px;
 }
@@ -873,13 +879,13 @@ h4 {
 
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
 }
 
@@ -888,7 +894,7 @@ h4 {
         width: 100%;
     }
     .b-parallax {
-        background-attachment: scroll;
+        background-attachment:fixed;
     }
     .page-container,
     #hero-bloc {
@@ -922,9 +928,11 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    /*
     .b-parallax {
         background-attachment: scroll;
     }
+    */
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
