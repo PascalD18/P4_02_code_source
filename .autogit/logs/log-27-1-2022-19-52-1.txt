@@ -1,0 +1,20 @@
+-------------------- Auto-Git Log --------------------
+		Sun Feb 27 2022 19:52:01 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* img/image-de-presentation.png
+* img/la-chouette-agence-banniere.jpg
+* index.html
+* style.css
+
+
+Created files:
+* .autogit/logs/log-27-1-2022-19-21-37.txt
+* img/image-de-presentation.jpg
+
+
+Deleted files:
+
+
+Renamed files:

@@ -303,6 +303,13 @@ a:hover {
     font-size: 32px;
 }
 
+#bloc-1-hero{
+    background-image: url("img/image-de-presentation.jpg");
+    background-attachment:local;
+    height: 100%;
+    width: 100%;
+}
+
 .navbar {
     margin-bottom: 0;
     z-index: 1;
