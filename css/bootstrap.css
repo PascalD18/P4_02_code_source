@@ -1659,8 +1659,9 @@ mark {
 }
 
 .text-center {
-    text-align: center
-
+    position: relative;
+    text-align: center;
+    width: auto;
 }
 .text-center-5{
     width: 70%;
