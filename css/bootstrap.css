@@ -1661,14 +1661,8 @@ mark {
 .text-center {
     position: relative;
     text-align: center;
-    width: auto;
 }
-.text-center-5{
-    width: 70%;
-    margin: auto;
-    text-align: center;
-    background-color: #364577
-}
+
 .text-justify {
     text-align: justify
 }
@@ -2300,7 +2294,7 @@ pre code {
     .col-sm-1,
     .col-sm-10,
     .col-sm-11,
-    .col-sm-12,
+    /*col-sm-12*/
     .col-sm-2,
     .col-sm-3,
     .col-sm-4,
@@ -2312,7 +2306,9 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+        margin: auto;
+        text-align: center
     }
     .col-sm-11 {
         width: 91.66666667%
