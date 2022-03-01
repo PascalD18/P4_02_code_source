@@ -766,8 +766,8 @@ h4 {
     font-weight: 400;
 }
 
-.tc-pink{
-    color: #fdd4ba!important;
+.tc-yellow{
+    color: #f3f643!important;
 }
 .black{
     color: #000000;
@@ -810,12 +810,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f1bd80!important;
 }
-.tc-white-5{
+.Texte-entete{
     background-color:#364577;
     color: #ffffff;
-    width:45%;
+    width:fit-content;
+    text-overflow: clip;
     padding: 0px 15px;
     margin: auto;
 }
