@@ -1,0 +1,18 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 01 2022 14:38:26 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* css/bootstrap.css
+* index.html
+* style.css
+
+
+Created files:
+* .autogit/logs/log-1-2-2022-14-8-0.txt
+
+
+Deleted files:
+
+
+Renamed files:
