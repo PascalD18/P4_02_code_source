@@ -59,16 +59,13 @@ a:hover {
     outline: 0
 }
 
-.black-20>li>a{
-    color: black;
-    font-size: 30px
-}
 
 .black-25{
     color: black;
     font-size: 25px;
     font-weight: 600
 }
+
 
 
 abbr[title] {
