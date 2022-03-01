@@ -770,7 +770,7 @@ h4 {
     color: #f3f643!important;
 }
 .black{
-    color: #000000;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -1075,7 +1075,7 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .bloc-mob-center-text {
+    .bloc-mob-center-text{
         text-align: center;
     }
 }

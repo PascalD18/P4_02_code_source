@@ -59,6 +59,11 @@ a:hover {
     outline: 0
 }
 
+.black-20>li>a{
+    color: black!important;
+    font-size: 20px!important;
+}
+
 abbr[title] {
     border-bottom: 1px dotted
 }
