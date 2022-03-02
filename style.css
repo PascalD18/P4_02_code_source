@@ -13,7 +13,7 @@ button {
     outline: none!important;
 }
 
-a:hover,a:focus {
+a:hover, a:focus-visible {
     text-decoration: none;
     cursor: pointer;
     outline: 3px solid red;
