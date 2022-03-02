@@ -869,22 +869,17 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
+/*------------------ AFFICHAGE SUIVANT ECRAN ----------*/
 
-
-
-@media (max-width: 1024px) {
+@media (max-width: 400px) {
     .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .bloc.full-width-bloc,
-    .bloc-tile-2.full-width-bloc .container,
-    .bloc-tile-3.full-width-bloc .container,
-    .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
     }
 }
+
+
+
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
@@ -895,38 +890,9 @@ h4 {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (min-width: 768px) and (max-width: 1350px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: fixed;
-    }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: fixed;
-    }
-}
-
-@media (max-width: 991px) {
-    .container {
-        width: 100%;
-    }
-    .b-parallax {
-        background-attachment:fixed;
-    }
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
-    .bloc-group,
-    .bloc-group .bloc {
-        display: block;
-        width: 100%;
-    }
-    .bloc-fill-screen .fill-bloc-top-edge,
-    .bloc-fill-screen .fill-bloc-bottom-edge {
-        padding: 0 20px;
     }
 }
 
@@ -1018,6 +984,10 @@ h4 {
         float: left;
         margin-left: 10px;
     }
+
+    .bloc-mob-center-text{
+        text-align: center;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1073,15 +1043,41 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
+@media (max-width: 991px) {
+    .container {
+        width: 100%;
+    }
+    .b-parallax {
+        background-attachment:fixed;
+    }
+    .page-container,
+    #hero-bloc {
+        overflow-x: hidden;
+        position: relative;
+    }
+    .bloc-group,
+    .bloc-group .bloc {
+        display: block;
+        width: 100%;
+    }
+    .bloc-fill-screen .fill-bloc-top-edge,
+    .bloc-fill-screen .fill-bloc-bottom-edge {
+        padding: 0 20px;
     }
 }
 
-@media (max-width: 767px) {
-    .bloc-mob-center-text{
-        text-align: center;
+
+
+@media (max-width: 1024px) {
+    .bloc {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .bloc.full-width-bloc,
+    .bloc-tile-2.full-width-bloc .container,
+    .bloc-tile-3.full-width-bloc .container,
+    .bloc-tile-4.full-width-bloc .container {
+        padding-left: 0;
+        padding-right: 0;
     }
 }
