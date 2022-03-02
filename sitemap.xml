@@ -1,5 +1,5 @@
 <?versionxml= "1.0"encoding="UTF-8"?>
-<urlt
+<urlset
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
@@ -20,4 +20,4 @@ http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <loc>https://pascald18.github.io/P4_02_code_source/contacts-webdesign.html</loc>
 <lastmod>2022-02-22</lastmod>
 <priority>0.80</priority>
-</url>
+</urset>
