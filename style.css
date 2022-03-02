@@ -16,6 +16,7 @@ button {
 a:hover,a:focus {
     text-decoration: none;
     cursor: pointer;
+    outline: 3px solid red;
 }
 
 #page-loading-blocs-notifaction {
