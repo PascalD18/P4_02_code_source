@@ -5454,8 +5454,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand:focus,
 .navbar-brand:hover {
-    color: #5e5e5e;
-    background-color: red
+    border:solid #364577;
+
+    
 }
 
 .navbar-default .navbar-text {
