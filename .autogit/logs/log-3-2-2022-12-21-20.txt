@@ -1,0 +1,16 @@
+-------------------- Auto-Git Log --------------------
+		Thu Mar 03 2022 12:21:20 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* style.css
+
+
+Created files:
+* .autogit/logs/log-3-2-2022-11-50-59.txt
+
+
+Deleted files:
+
+
+Renamed files:

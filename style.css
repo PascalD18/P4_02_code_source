@@ -674,9 +674,9 @@ a {
     /*color: #575757!important;*/
 }
 
-/*.container {
-    max-width: 1000px;
-}*/
+.col-sm-6-large{
+    width: 100%;
+}
 
 .hero-bloc-text {
     font-size: 38px;
@@ -722,6 +722,7 @@ p {
     position: relative;
     display: flex;
     align-items: center;
+    margin: auto;
 }
 
 .social {
