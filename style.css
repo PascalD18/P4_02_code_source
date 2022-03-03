@@ -858,10 +858,11 @@ nav>ul>li>a:focus{
     transform: scale(1.1);
 }
 
-li>a:hover{
-
-    border:solid #364577;
+.black-20>li>a:hover{
+    color:black;
+    border:solid 10px #364577;
     transform: scale(1.1);
+    border-width: 5px;
 }
 
 /*-----------------------------------------------------*/
