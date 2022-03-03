@@ -888,8 +888,18 @@ h4 {
     width: fit-content;
 }
 
+/*-----------------------------------------------------*/
+/*------ GESTION DES FOCUS ----------------------------*/
+@supports selector(div:focus-visible){
+    .btn-d:focus-visible{
+        outline: 6px dashed hotpink;
+    }
+}
 
+
+/*-----------------------------------------------------*/
 /*------------------ AFFICHAGE SUIVANT ECRAN ----------*/
+/*-----------------------------------------------------*/
 
 @media (max-width: 400px) {
     .bloc {
@@ -939,12 +949,7 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    /*
-    .b-parallax {
-        background-attachment: scroll;
-    }
-    */
-    .navbar .nav {
+      .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
