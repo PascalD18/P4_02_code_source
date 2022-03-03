@@ -16,7 +16,7 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    outline: 3px solid red;
+    background-color: red;
 }
 
 #page-loading-blocs-notifaction {
@@ -354,24 +354,21 @@ top: 0;
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
-
 /*
 .nav > li a:hover,
 .nav > li a:focus {
     background-color:transparent;
 }*/
-nav>a:hover,nav>a:focus{
-   background-color: red;               
-}
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
 }
 
+/*
 .navbar-toggle:hover {
     background: transparent!important;
-}
+}*/
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
