@@ -3703,7 +3703,6 @@ textarea.input-lg {
     outline-offset: -2px
 }
 
-.btn.focus,
 .btn:focus,
 .btn:hover {
     color: #333;
@@ -4861,13 +4860,13 @@ textarea.input-group-sm>.input-group-btn>.btn {
 .nav>li>a {
     position: relative;
     display: block;
-    padding: 10px 15px
+    padding: 10px 15px          
 }
 
 .nav>li>a:focus,
 .nav>li>a:hover {
     text-decoration: none;
-    background-color: #eee
+    filter: drop-shadow(8px 8px 10px #444343);
 }
 
 .nav>li.disabled>a {
