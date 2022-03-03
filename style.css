@@ -355,9 +355,13 @@ top: 0;
     text-align: inherit;
 }
 
+/*
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background-color:transparent;
+}*/
+nav>a:hover{
+   filter: drop-shadow(8px 8px 10px #444343);
 }
 
 .navbar-toggle {
@@ -890,15 +894,16 @@ h4 {
 
 /*-----------------------------------------------------*/
 /*------ GESTION DES FOCUS ----------------------------*/
-@supports selector(div:focus-visible){
-    .btn-d:focus-visible{
+/*-----------------------------------------------------*/
+@supports (div:focus-visible){
+
+
+    .btn-d:focus-visible {
         outline: 6px dashed hotpink;
     }
 }
-
-
 /*-----------------------------------------------------*/
-/*------------------ AFFICHAGE SUIVANT ECRAN ----------*/
+/* ---------SUIVANT ECRAN ----------*/
 /*-----------------------------------------------------*/
 
 @media (max-width: 400px) {
