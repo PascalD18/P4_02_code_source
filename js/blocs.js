@@ -63,12 +63,12 @@ function scrollToTarget(t) {
         scrollTop: t
     }, "slow"), $(".navbar-collapse").collapse("hide")
 }
-
+/*form_1
 function animateWhenVisible() {
     hideAll(), inViewCheck(), $(window).scroll(function() {
         inViewCheck(), scrollToTopView(), stickyNavToggle()
     })
-}
+}*/
 
 function setUpDropdownSubs() {
     $("ul.dropdown-menu [data-toggle=dropdown]").on("click", function(t) {
