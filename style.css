@@ -13,7 +13,7 @@ button {
     outline: none!important;
 }
 
-a:hover, a:focus-visible {
+a:hover {
     text-decoration: none;
     cursor: pointer;
     outline: 3px solid red;
@@ -21,7 +21,7 @@ a:hover, a:focus-visible {
 
 #page-loading-blocs-notifaction {
     position: fixed;
-    top: 0;
+top: 0;                 
     bottom: 0;
     width: 100%;
     z-index: 100000;
