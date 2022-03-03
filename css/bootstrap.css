@@ -5452,12 +5452,22 @@ textarea.input-group-sm>.input-group-btn>.btn {
     color: #777
 }
 
-.navbar-brand:focus,
+/*.navbar-brand:focus,
 .navbar-brand:hover {
-    border:solid #364577;
+    /*border:solid #364577;
+    border-image-width: 3px;
+    border-color: red
+}*/
 
+.test-img:hover{
+    border:solid ;
+    border-width: 3px;
+    border:outset red;
+    transform: scale(1.2);
     
 }
+
+
 
 .navbar-default .navbar-text {
     color: #777
