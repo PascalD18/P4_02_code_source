@@ -16,7 +16,6 @@ button {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    background-color: red;
 }
 
 #page-loading-blocs-notifaction {
@@ -435,13 +434,13 @@ nav .caret {
 
 .btn.pull-right {
     margin: 0 0 5px 5px;
-}
+}           
 
-.btn-d,
 .btn-d:hover,
-.btn-d:focus {
+.btn-d:focus-visible {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, .3);                              
+    outline: red;
 }
 
 button {

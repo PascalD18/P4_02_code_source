@@ -5210,11 +5210,6 @@ textarea.input-group-sm>.input-group-btn>.btn {
     line-height: 20px
 }
 
-.navbar-brand:focus,
-.navbar-brand:hover {
-    text-decoration: none
-}
-
 .navbar-brand>img {
     display: block
 }
@@ -5457,10 +5452,10 @@ textarea.input-group-sm>.input-group-btn>.btn {
     color: #777
 }
 
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:hover {
+.navbar-brand:focus,
+.navbar-brand:hover {
     color: #5e5e5e;
-    background-color: transparent
+    background-color: red
 }
 
 .navbar-default .navbar-text {
@@ -5497,7 +5492,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover {
-    background-color: #ddd
+    background-color: #ddd;
+    background-color: red;
+    
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -5572,8 +5569,8 @@ fieldset[disabled] .navbar-default .btn-link:hover {
     color: #9d9d9d
 }
 
-.navbar-inverse .navbar-brand:focus,
-.navbar-inverse .navbar-brand:hover {
+.navbar-inverse,
+.navbar-inverse {
     color: #fff;
     background-color: transparent
 }
