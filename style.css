@@ -436,10 +436,10 @@ nav .caret {
 }           
 
 .btn-d:hover,
-.btn-d:focus-visible {
+.btn-d:focus {
     color: #FFF;
     background: rgba(0, 0, 0, .3);                              
-    outline: red;
+    border: solid red;
 }
 
 button {
@@ -850,21 +850,23 @@ h4 {
 /*-----------------------------------------------------*/
 /* ---------GESTION DES FOCUS ET SURVOL SOURIS ----------*/
 /*-----------------------------------------------------*/
+/*
 .navbar-brand:hover,
 .navbar-brand:focus
 nav>ul>li>a:hover,
 nav>ul>li>a:focus{
     border:solid #364577;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
-.black-20>li>a:hover{
+.black-20>li>a:hover,
+.black-20>li>a:focus{
     color:black;
     border:solid 10px #364577;
-    transform: scale(1.1);
+    border:solid 10px red;
     border-width: 5px;
 }
-
+*/
 /*-----------------------------------------------------*/
 /* --------- AFFICHAGE SUIVANT ECRAN ----------*/
 /*-----------------------------------------------------*/
