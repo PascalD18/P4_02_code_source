@@ -142,19 +142,19 @@ a:hover {
 }
 
 .d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
+.d-bloc .navbar,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc  a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
+.d-bloc .icon-sm,
+.d-bloc .icon-md,
+.d-bloc .icon-lg,
+.d-bloc .icon-xl,
+.d-bloc ,
+.d-bloc h2,
+.d-bloc h3,
+.d-bloc h4,
+.d-bloc h5,
+.d-bloc h6,
+.d-bloc p {
     color: rgba(255, 255, 255, 1);
 }
 
@@ -242,19 +242,19 @@ a:hover {
 
 .d-bloc .panel .a-btn:hover,
 .l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
+.l-bloc .navbar,
 .l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc  a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
+.l-bloc .icon-sm,
+.l-bloc .icon-md,
+.l-bloc .icon-lg,
+.l-bloc .icon-xl,
+.l-bloc ,
+.l-bloc h2,
+.l-bloc h3,
+.l-bloc h4,
+.l-bloc h5,
+.l-bloc h6,
+.l-bloc p {
     color: rgba(0, 0, 0, 1);
 }
 
@@ -353,7 +353,7 @@ a:hover {
     text-align: inherit;
 }
 /*
-.nav > li a:hover,
+.nav > li,
 .nav > li a:focus {
     background-color:transparent;
 }*/
@@ -363,10 +363,6 @@ a:hover {
     border: 0px;
 }
 
-/*
-.navbar-toggle:hover {
-    background: transparent!important;
-}*/
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
@@ -436,7 +432,7 @@ nav .caret {
 }           
 
 .btn-d:hover,
-.btn-d:focus {
+.btn-d:focus{
     color: #FFF;
     background: rgba(0, 0, 0, .3);                              
     border: solid red;
@@ -850,15 +846,21 @@ h4 {
 /*-----------------------------------------------------*/
 /* ---------GESTION DES FOCUS ET SURVOL SOURIS ----------*/
 /*-----------------------------------------------------*/
-/*
+
+.navbar-toggle:hover,
+.navbar-toggle:focus,
 .navbar-brand:hover,
-.navbar-brand:focus
+.navbar-brand:focus,
 nav>ul>li>a:hover,
 nav>ul>li>a:focus{
     border:solid #364577;
-    transform: scale(1.05);
+    transform: scale(1.05);                 
 }
-
+.col-sm-6>address:focus{
+    border-width: 10px;   
+    border-color: red;      
+}
+/*
 .black-20>li>a:hover,
 .black-20>li>a:focus{
     color:black;
@@ -1083,7 +1085,7 @@ nav>ul>li>a:focus{
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
-    .nav > li .dropdown-menu a:hover {
+    .nav > li .dropdown-menu {
         color: #484848;
     }
     .nav-invert .site-navigation {
