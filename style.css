@@ -853,14 +853,15 @@ h4 {
 .navbar-brand:focus,
 nav>ul>li>a:hover,
 nav>ul>li>a:focus{
-    border:solid #364577;
+    border:solid #364577;   
     transform: scale(1.05);                 
 }
-.col-sm-6>address:focus{
-    border-width: 10px;   
-    border-color: red;      
+.col-sm-6>a:hover,
+.col-sm-6>a:focus{  
+    border: dashed #364577;
+    border-width: 5px;        
 }
-/*
+/*          
 .black-20>li>a:hover,
 .black-20>li>a:focus{
     color:black;
