@@ -861,15 +861,6 @@ nav>ul>li>a:focus{
     border: dashed #364577;
     border-width: 5px;        
 }
-/*          
-.black-20>li>a:hover,
-.black-20>li>a:focus{
-    color:black;
-    border:solid 10px #364577;
-    border:solid 10px red;
-    border-width: 5px;
-}
-*/
 /*-----------------------------------------------------*/
 /* --------- AFFICHAGE SUIVANT ECRAN ----------*/
 /*-----------------------------------------------------*/
