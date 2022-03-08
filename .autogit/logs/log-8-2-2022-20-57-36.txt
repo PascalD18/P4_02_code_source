@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 08 2022 20:57:36 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+* index.html
+
+
+Created files:
+
+
+Deleted files:
+
+
+Renamed files:
