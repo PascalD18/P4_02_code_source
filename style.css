@@ -777,10 +777,13 @@ h4 {
     margin: auto;
 }
 
-.black-20>li>a{
-    color: black;
+.black-20>li>a,
+.black-20{
+    color: black!important;
     font-size: 20px;
 }
+
+
 
 .btn-atomic-tangerine {
     background: #F3976C;
