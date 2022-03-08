@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Tue Mar 08 2022 10:54:27 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+
+
+Deleted files:
+* css/font-awesome.min.css
+
+
+Renamed files:
