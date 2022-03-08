@@ -1,3 +1,2 @@
-https://pascald18.github.io/P4_02_code_source/index.html
-https://pascald18.github.io/P4_02_code_source/contacts-webdesign.html
-https://pascald18.github.io/P4_02_code_source/sitemap.xml
+User-Agent: *
+Allow: /
