@@ -491,7 +491,7 @@ button {
     font-size: 20px;
 }
 
-.scrollToTop {
+.scrolltotop {
     display: flex;
     justify-content: center;
     width: 40px;
@@ -501,7 +501,7 @@ button {
     transition: all .3s ease-in-out;
 }
 
-.scrollToTop span {
+.scrolltotop span {
     margin-top: 6px;
 }
 
@@ -1070,7 +1070,8 @@ nav>ul>li>a:focus{
     }
 }
 @media (min-width: 768px) {
-    .scrollToTop{
+
+    .scrolltotop{
         display: none;
     }
 
