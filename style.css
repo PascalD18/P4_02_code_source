@@ -498,11 +498,17 @@ button {
     height: 40px;
     position:absolute;
     right: 0px;
+    top:0px;
     transition: all .3s ease-in-out;
 }
 
+
 .scrolltotop span {
     margin-top: 6px;
+}
+
+.scrolltotop:hover{
+    border:solid black!important;
 }
 
 .showScrollTop {
