@@ -487,6 +487,10 @@ button {
     box-shadow: none;
 }
 
+.form-group{
+    font-size: 20px;
+}
+
 .scrollToTop {
     display: none;
     width: 40px;
