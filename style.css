@@ -492,7 +492,8 @@ button {
 }
 
 .scrollToTop {
-    display: none;
+    display: flex;
+    justify-content: center;
     width: 40px;
     height: 40px;
     position:absolute;
@@ -500,20 +501,16 @@ button {
     transition: all .3s ease-in-out;
 }
 
+.fa-chevron-up:focus-visible{
+ background-color: red;
+}
+
 .scrollToTop span {
     margin-top: 6px;
 }
 
-.scrollToTop:hover{
-    display: flex;
-    justify-content: center;
-    background-color: red;
-    text-align: center;
-}
-
 .showScrollTop {
     font-size: 14px;
-    opacity: 1;
 }
 
 a[data-lightbox] {
@@ -876,7 +873,7 @@ nav>ul>li>a:focus{
     transform: scale(1.05);                 
 }
 .col-sm-6>a:hover,
-.col-sm-6>a:focus{  
+.col-sm-6>a:focus{      
     border: dashed #364577;
     border-width: 5px;        
 }
@@ -891,11 +888,6 @@ nav>ul>li>a:focus{
     }
 }
 @media (max-width: 767px) {
-
-    .scrollToTop{
-        display: initial;
-    }
-
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1073,6 +1065,7 @@ nav>ul>li>a:focus{
     }
 }
 @media (min-width: 768px) and (max-width: 992px) {
+
     .navbar .nav {
         max-width: 80%
     }
@@ -1081,6 +1074,9 @@ nav>ul>li>a:focus{
     }
 }
 @media (min-width: 768px) {
+    .scrollToTop{
+        display: none;
+    }
 
     .b-parallax {
         background-attachment: fixed;
