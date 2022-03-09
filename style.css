@@ -504,6 +504,13 @@ button {
     margin-top: 6px;
 }
 
+.scrollToTop:hover{
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    text-align: center;
+}
+
 .showScrollTop {
     font-size: 14px;
     opacity: 1;
