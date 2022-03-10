@@ -804,7 +804,7 @@
 }
 
 .fa-facebook-f:before,
-.fa-facebook:before {
+.fa-facebook:before{
     content: "\f09a"
 }
 
@@ -1575,9 +1575,9 @@
     content: "\f16c"
 }
 
-.fa-instagram:before {
+/*.fa-instagram:before {
     content: "\f16d"
-}
+}*/
 
 .fa-flickr:before {
     content: "\f16e"
