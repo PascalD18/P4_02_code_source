@@ -44,7 +44,7 @@ a:hover {
 }
 
 #bloc-3-what-i-do{
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.avif");
     background-attachment:local;
     height: 100%;
     width: 100%;
@@ -301,7 +301,7 @@ a:hover {
 }
 
 #bloc-1-hero{
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.avif");
     background-attachment:local;
     height: 100%;
     width: 100%;
@@ -838,7 +838,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.avif");
 }
 
 .bg-presentation {
