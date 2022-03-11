@@ -318,13 +318,17 @@ a:hover {
 }
 
 .navbar-brand {
-    height: 40px;
-    width: 210px;
+    height: auto;
     padding: 3px 15px;
     font-size: 25px;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
+}
+
+.logo-agence{
+    height: 40px;
+    width: 210px;
 }
 
 .navbar-brand img {
