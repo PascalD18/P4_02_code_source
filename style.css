@@ -295,6 +295,10 @@ a:hover {
     background-color: #364577;
 }
 
+.image-resize-mode{
+    height: 100px;
+    width: 100px;
+}
 
 #bloc-1-hero h1 {
     font-size: 32px;
