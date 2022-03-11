@@ -298,6 +298,7 @@ a:hover {
 .image-resize-mode{
     height: 100px;
     width: 100px;
+    border-radius: 50%;
 }
 
 #bloc-1-hero h1 {
@@ -769,11 +770,11 @@ h4 {
 .bgc-white {
     background-color: #FFFFFF;
 }
-
+/*
 .bgc-dark-slate-blue {
     background-color: #364577;
 }
-
+*/
 .bgc-atomic-tangerine {
     background-color: #F3976C;
 }
@@ -786,7 +787,7 @@ h4 {
     color: #ffffff;
     width:fit-content;
     text-overflow: clip;
-    padding: 0px 15px;
+    padding: 15px;
     margin: auto;
 }
 
