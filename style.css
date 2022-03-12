@@ -306,7 +306,7 @@ a:hover {
 }
 
 #bloc-1-hero{
-    background-image: url("img/image-de-presentation-1.avif");
+    background-image: url("img/image-de-presentation-2.avif");
     background-attachment:local;
     height: 100%;
     width: 100%;
@@ -893,6 +893,11 @@ nav>ul>li>a:focus{
 /*-----------------------------------------------------*/
 
 @media (max-width: 400px) {
+
+    #bloc-1-hero{
+        background-image: url("img/image-de-presentation-1.avif");
+    }
+
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1085,11 +1090,7 @@ nav>ul>li>a:focus{
     }
 }
 @media (min-width: 768px) {
-
-    #bloc-1-hero{
-        background-image: url("img/image-de-presentation-2.avif");
-    }
-    
+  
     .scrolltotop{
         display: none;
     }
