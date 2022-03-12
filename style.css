@@ -306,7 +306,7 @@ a:hover {
 }
 
 #bloc-1-hero{
-    background-image: url("img/image-de-presentation.avif");
+    background-image: url("img/image-de-presentation-1.avif");
     background-attachment:local;
     height: 100%;
     width: 100%;
@@ -851,11 +851,11 @@ h4 {
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.avif");
 }
-
+/*
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
 }
-
+*/
 .bloc7{
     display: flex;
     flex-wrap: wrap;
@@ -1086,6 +1086,10 @@ nav>ul>li>a:focus{
 }
 @media (min-width: 768px) {
 
+    #bloc-1-hero{
+        background-image: url("img/image-de-presentation-2.avif");
+    }
+    
     .scrolltotop{
         display: none;
     }
