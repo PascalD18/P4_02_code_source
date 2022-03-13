@@ -1,0 +1,15 @@
+-------------------- Auto-Git Log --------------------
+		Sun Mar 13 2022 12:22:16 GMT+0100 (heure normale d’Europe centrale)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+
+
+Deleted files:
+* style.min.css
+
+
+Renamed files:
