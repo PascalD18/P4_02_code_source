@@ -697,7 +697,7 @@ h3 {
 }
 
 .med-width-whitespace {
-    max-width: 800px;
+    /*max-width: 800px;*/
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
@@ -856,6 +856,13 @@ nav>ul>li>a:focus{
     border: dashed #364577;
     border-width: 5px;        
 }
+
+
+.para-def:focus{      
+    border: dashed #364577;
+    border-width: 5px;       
+}
+
 /*-----------------------------------------------------*/
 /* --------- AFFICHAGE SUIVANT ECRAN ----------*/
 /*-----------------------------------------------------*/
