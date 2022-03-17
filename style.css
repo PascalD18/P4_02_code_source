@@ -882,6 +882,8 @@ nav>ul>li>a:focus{
     }
 }
 @media (max-width: 767px) {
+
+
     .page-container {
         overflow-x: hidden;
         position: relative;
@@ -1059,6 +1061,8 @@ nav>ul>li>a:focus{
 }
 @media (min-width: 768px) and (max-width: 992px) {
 
+
+
     .navbar .nav {
         max-width: 80%
     }
@@ -1067,6 +1071,10 @@ nav>ul>li>a:focus{
     }
 }
 @media (min-width: 768px) {
+
+    .nav>li>a{
+        display:inline-block;
+    }
   
     .scrolltotop{
         display: none;
