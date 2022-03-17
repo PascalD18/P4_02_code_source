@@ -539,7 +539,7 @@ a[data-lightbox]:hover::before {
     z-index: 1;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: -moz-translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
 
@@ -774,10 +774,6 @@ h4 {
 .Texte-entete{
     background-color:#364577;
     color: #ffffff;
-    width:-webkit-fit-content;
-    width:-moz-fit-content;
-    width:-ms-fit-content;
-    width:fit-content;
     text-overflow: clip;
     padding: 15px;
     margin: auto;
@@ -847,13 +843,11 @@ h4 {
     width: 100%;
     margin: 0px 10px;
 }
-
+/*
 .btn7{
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
     width: fit-content;
 }
-
+*/
 /*-----------------------------------------------------*/
 /* ---------GESTION DES FOCUS ET SURVOL SOURIS ----------*/
 /*-----------------------------------------------------*/
@@ -914,7 +908,7 @@ nav>ul>li>a:focus{
     }
     .site-navigation {
         position: inherit;
-        transform: none;
+        transform: -moz-none;
         -webkit-transform: none;
         -ms-transform: none;
     }
@@ -1089,7 +1083,7 @@ nav>ul>li>a:focus{
         position: absolute;
         top: 50%;
         right: 20px;
-        transform: translate(0, -50%);
+        transform: -moz-translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
